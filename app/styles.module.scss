@@ -1,0 +1,17 @@
+.main {
+  border-radius: 8px;
+  padding: 2em;
+  width: 92vw;
+  max-height: 92vh;
+  overflow: auto;
+  background-color: white;
+
+  border: 1px solid #f8f8f8;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+
+  & > div {
+    background: transparent;
+
+    --spectrum-alias-background-color-default: transparent;
+  }
+}
